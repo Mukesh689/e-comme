@@ -1,0 +1,41 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+li{
+    list-style: none;
+}
+.description{
+    border:2px solid white;
+}
+.title{
+    color: wheat;
+    font-size:20px;
+}
+.product {
+    background: url('/public/d65b8f21-ba9f-421a-9daf-c5c20446d502.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    overflow: hidden;
+}     
+
+@media (max-width: 768px) {
+  .product-image {
+    height: 200px !important;
+    width: auto !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .product-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+

@@ -1,0 +1,40 @@
+.paymentbtn{
+    width: 30%;
+    height: 40px;
+    margin: 0 30%;
+    border-radius: 40px;
+    background-color:rgb(255, 255,255,1);
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    box-shadow: 0 0 5px greenyellow ,0 0 10px greenyellow;
+}
+
+.paymentbtn:hover{
+    background-color: greenyellow;
+    color: white;
+    box-shadow: 0 0 5px greenyellow ,0 0 15px greenyellow , 0 0 15px greenyellow ,0 0 15px greenyellow;
+} 
+.texttitle{
+    margin:0 30% ;
+    text-align: center;
+}
+
+.paymentcontainer{
+     position: relative;
+    max-width:400px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255,255,0.5);
+    border-radius:20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 3rem;
+}
+
+

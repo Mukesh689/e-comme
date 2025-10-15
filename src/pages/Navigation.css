@@ -1,0 +1,23 @@
+.link{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    color:palevioletred;
+}
+
+.container1{
+    background:url('../public/652de7e303bbb3e12ceaec8ac9f343a1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+/* img{
+    border-radius: 50%;
+} */

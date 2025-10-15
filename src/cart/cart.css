@@ -1,0 +1,47 @@
+.containerfuild
+{
+    margin-top: 40px;
+}
+.cart-item-image{
+    height: 200px;
+    width: 200px;
+}
+.cart-list{
+    
+    padding: 40px ;
+     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+h3{
+    margin-left: 30px;
+}
+.quantity-button{
+    width:30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin:0 20px;
+
+}
+.cart-total{
+    margin-right: 50px;
+    display: grid;
+    justify-content:flex-end;
+    align-content: center;
+}
+span{
+    font-weight: 700;
+}
+
+.cartpage{
+    color: white;
+    background: url('/public/d65b8f21-ba9f-421a-9daf-c5c20446d502.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

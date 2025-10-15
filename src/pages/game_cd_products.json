@@ -1,0 +1,797 @@
+[
+  {
+    "id":1,
+    "name": "Watch Dogs: Legion",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 43.11,
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Watch_Dogs_Legion_cover_art.webp",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":2,
+    "name": "Forza Horizon 5",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 43.01,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHuO5aX6VBDh6PnDsRfCW-aqqKXgCKEyW_Nw6ukIWXkzcq3e2G",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":3,
+    "name": "Elden Ring",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 45.37,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhzMqBnyE8eJebI8qI9fJgV8L-24UeRfDEWGcxhB6QeJbpJ4p",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":4,
+    "name": "Plague Tale: Requiem",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 57.98,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Br14FfZ0bAbvfaZ81z1kDqm08dz-V2wAaNLm8riu-Dm7sGvO",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":5,
+    "name": "Days Gone",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 62.16,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxAcSdCXBvimW7ofvQyEw1_oKkJQb6wgAm9WA2UCZmuecVPMR0",
+    "platform": "PC"
+  },
+  {
+    "id":6,
+    "name": "Remnant II",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 35.8,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsrMno9q8akQ3C2_b1d3HAMcRP0yi7m6EAYvUtpDG7bl6JosVE",
+    "platform": "PC"
+  },
+  {
+    "id":7,
+    "name": "The Last of Us Part II",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 36.95,
+    "image": "/public/The Last of Us Part II.png",
+    "platform": "PC"
+  },
+  {
+    "id":8,
+    "name": "Sifu",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 56.47,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs49QcDZ1u9YDY0MjRgYmiJ6UnTMaHTGxyaFCLkvV37IXmShK2",
+    "platform": "PC"
+  },
+  {
+    "id":9,
+    "name": "Baldur's Gate III",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 69.72,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfHf00n-K29UJL0yUMLv6-MIsfGv1F7YuGprMdjVequP_n3St8",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":10,
+    "name": "Horizon Forbidden West",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 23.93,
+    "image": "/public/Horizon Forbidden West.jpg",
+    "platform": "PC"
+  },
+  {
+    "id":11,
+    "name": "Stray",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 64.11,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6N-wdRrJD0j5YHsc2dl9TmiXJ0MDSZ1uycaYjBjB_VHArs1TY",
+    "platform": "PS5"
+  },
+  {
+    "id":12,
+    "name": "Far Cry 6",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 24.75,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQV95AA1bCsIf4J55wcuuJ6REHoT0YTWj2iTpw2QrL_ett8OXyd",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":13,
+    "name": "Starfield",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 37.76,
+    "image": "/public/Starfield.jpg",
+    "platform": "PC"
+  },
+  {
+    "id":14,
+    "name": "NBA 2K24",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 53.58,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdxqvr-zhg3DyjSEb9iRohThZoUo6ZDnTqraGKhs6LMF70XdA4",
+    "platform": "PC"
+  },
+  {
+    "id":15,
+    "name": "Sekiro: Shadows Die Twice",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 29.96,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7dni_ys13rdDE9PqOHJcULBVE_IOL0l5PxpigX-dspVn2bK2V",
+    "platform": "PC"
+  },
+  {
+    "id":16,
+    "name": "The Witcher 3: Wild Hunt",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 34.02,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgOPtH8lO6v8aRGGNpdEpaJgtR5GEO1UlnPv33E4-9hyPDQHa7",
+    "platform": "PC"
+  },
+  {
+    "id":17,
+    "name": "Lies of P",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 28.59,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL-QP-voyG-m1XEb4ipryOP6P6yD8vUm_yltrLFxduWxberKky",
+    "platform": "PS5"
+  },
+  {
+    "id":18,
+    "name": "Far Cry 5",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 23.79,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgqMKUcFgSvF6e9h3qMcZr4J8PPCF_TaKdiaLh1L9gZjiWbfYa",
+    "platform": "PS5"
+  },
+  {
+    "id":19,
+    "name": "It Takes Two",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 33.61,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0jHkUGzdNLUOYYJAnZ4nb4qZtpdyBOOHRCI4m4tt02yfSufkc",
+    "platform": "PC"
+  },
+  {
+    "id":20,
+    "name": "Doom Eternal",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 26.34,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3C80pDOV4ZrAMj3uBxfcwPekeeVi5HO9Qi5wHUmrJ0d7BarIW",
+    "platform": "PC"
+  },
+  {
+    "id":21,
+    "name": "Halo Infinite",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 34.04,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQePE0jZnH0jdkfoSZmA2EnAGukgyfj03zEgwRzC03Mg2lVseYl",
+    "platform": "PS5"
+  },
+  
+  {
+    "id":22,
+    "name": "Atomic Heart",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 60.46,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEvTYJy3k33NvVphAbwTD6ucxCu1DPSxIDPSqSb-UUzrpNTYrf",
+    "platform": "PC"
+  },
+  {
+    "id":23,
+    "name": "Sekiro: Shadows Die Twice",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 53.02,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7dni_ys13rdDE9PqOHJcULBVE_IOL0l5PxpigX-dspVn2bK2V",
+    "platform": "PS5"
+  },
+  {
+    "id":24,
+    "name": "Street Fighter 6",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 52.24,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRp7trhtm45gD07tHQxbrJt4Y7OPpQmwwHMquAT8Xd783zBglQk",
+    "platform": "PS5"
+  },
+  {
+    "id":25,
+    "name": "FIFA 24",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 58.96,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZaDGXkGd6rqnknibaM3pYZGVEqMrAi-z8cKOq7aGKfsqbZJFv",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":26,
+    "name": "Resident Evil 4 Remake",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 54.84,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5YsGHkEeCynhCsM4HJsHnW3i6JV2vxG3jKiVMjbzosQz57MAV",
+    "platform": "PC"
+  },
+  {
+    "id":27,
+    "name": "Resident Evil 5",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 51.19,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeOHi9GIXI3kyVEvFJkOL4iqH4YP-42tE9AiVSqzBwRUxOC6ta",
+    "platform": "PC"
+  },
+  {
+    "id":28,
+    "name": "Death Stranding",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 54.16,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfJstIQdwfWkxo_pzzSaGdbsMRk9IhnG8wcTebRnSPEdvV6ZK",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":29,
+    "name": "Battlefield 2042",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 40.02,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOJVs1G6dk11DVfqH0yioF-J2EAvulUNzqSutFmCmkqRdiA41",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":30,
+    "name": "NBA 2K23",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 63.79,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIhv_3ttaEusqYg8bl821cGSoP21tQj5GeBVfbW_IB9gilzGSv",
+    "platform": "PC"
+  },
+  {
+    "id":31,
+    "name": "Street Fighter 6",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 51.86,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVxEIDnlkChA_DaXapbAv8xtFhOxICS8u07IMCDfdB7rFD2GDR",
+    "platform": "PS5"
+  },
+  {
+    "id":32,
+    "name": "Battlefield 2042",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 37.61,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOJVs1G6dk11DVfqH0yioF-J2EAvulUNzqSutFmCmkqRdiA41",
+    "platform": "PS5"
+  },
+  {
+    "id":33,
+    "name": "Albion Online",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 67.79,
+    "image": "https://albiononline.com/wallpapers",
+    "platform": "PS5"
+  },
+  {
+    "id":34,
+    "name": "Death Stranding",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 21.54,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfJstIQdwfWkxo_pzzSaGdbsMRk9IhnG8wcTebRnSPEdvV6ZK",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":35,
+    "name": "Spider-Man: Miles Morales",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 49.7,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKcHEff0g5xPyrKCdLi4_i1iyXWrlHhza4j9AtZTTd6y3bv0cB",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":36,
+    "name": "The Last of Us Part I",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 65.02,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSp6lBjYIGw24iw2DyGVNbPjnF_qhLO_GPa1iMEchOrcvyx0I7E",
+    "platform": "PS5"
+  },
+  {
+    "id":37,
+    "name": "Lies of P",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 31.78,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL-QP-voyG-m1XEb4ipryOP6P6yD8vUm_yltrLFxduWxberKky",
+    "platform": "PS5"
+  },
+  {
+    "id":38,
+    "name": "The Witcher 2: Assassins of Kings",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 43.17,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRxPL-MYg9e_UHc16BdhIDiCLUneBeksFdyVxm1AAPiW7R57fZT",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":39,
+    "name": "Spider-Man",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 63.34,
+    "image": "https://en.wikipedia.org/wiki/Spider-Man_%282018_video_game%29#/media/File:Spider-Man_PS4_cover.jpg",
+    "platform": "PC"
+  },
+  {
+    "id":40,
+    "name": "Forza Horizon 5",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 54.63,
+    "image": "https://www.notebookcheck.net/Forza-Horizon-5-Performance-Analysis.579037.0.html",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":41,
+    "name": "Ghost of Tsushima",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 40.37,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7hlmSt7buXmy_kJLDW438XsKxC_M8atMiAq48d27Q8QTfMLcB",
+    "platform": "PC"
+  },
+  {
+    "id":42,
+    "name": "Marvel's Avengers",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 32.73,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZQfb2r9AsjOiPxUl-w5mTh5YB-CnN2y8w2sy4CStsXyeT91g6",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":43,
+    "name": "Kena: Bridge of Spirits",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 68.05,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSW6iZTe206jx7uPPKezpRKf_BinVx1vgVXg2eWopq9joBbTgCd",
+    "platform": "PS5"
+  },
+  {
+    "id":44,
+    "name": "Assassin's Creed Valhalla",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 59.8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf9_0MhcClESsULWWYalG-efy7DpBfC1v8B0rpotXU6VviTRW7",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":45,
+    "name": "Halo Infinite",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 43.19,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQePE0jZnH0jdkfoSZmA2EnAGukgyfj03zEgwRzC03Mg2lVseYl",
+    "platform": "PS5"
+  },
+  {
+    "id":46,
+    "name": "Halo Infinite 3",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 59.97,
+    "image": "https://images8.alphacoders.com/920/920300.jpg",
+    "platform": "PC"
+  },
+  {
+    "id":47,
+    "name": "Call of Duty: Modern Warfare III",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 63.46,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSivv6MDrZ2elzBbmBN4DBaftvnpsd8JoLNcu4nZnMbsCg9qQQ1",
+    "platform": "PS5"
+  },
+  {
+    "id":48,
+    "name": "Far Cry 4",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 32.16,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRdZ8xWCDUcgQkE47xffi0nXOs_m_xJUaeKeT0FGsAFGcGR6-R6",
+    "platform": "PC"
+  },
+  {
+    "id":49,
+    "name": "Gulid Wars 2",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 47.49,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzxzsG9Ldj9_Lp2bEsv1blfFfrb55av_hCSrbhXNzI_iEEE63H",
+    "platform": "PC"
+  },
+  {
+    "id":50,
+    "name": "Lords of the Fallen",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 30.78,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS042iY5g7FrZS6z1xd8n9hcuFDcL6sZFqIGS7RzleNNvvHsxIO",
+    "platform": "Xbox Series X"
+  },
+  
+  {
+    "id":51,
+    "name": "Marvel's Avengers",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 47.12,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZQfb2r9AsjOiPxUl-w5mTh5YB-CnN2y8w2sy4CStsXyeT91g6",
+    "platform": "PC"
+  },
+  {
+    "id":52,
+    "name": "Metro Exodus",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 23.34,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSR6qU61N-b6TuagjLE2W2BPaiu_g_eiGPL2SCFbgoNmKMXykRB",
+    "platform": "Xbox Series X"
+  },
+  {
+    
+    "id":53,
+    "name": "Final Fantasy XVI",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 55.56,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStCIAVZI7vwtexvqZfUhZs-c7SvRHS1f8boiSEJtMepYzgHpvz",
+    "platform": "PS5"
+  },
+  {
+    "id":54,
+    "name": "The Last of Us Part II",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 33.47,
+    "image": "https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II#/media/File:TLOU_P2_Box_Art_2.png",
+    "platform": "PS5"
+  },
+  {
+    "id":55,
+    "name": "Minecraft",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 22.84,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8GqmyBiwcs2RvDreAHAs_fg5e8es-KYLzHM9NqA7nWuU6K705",
+    "platform": "PS5"
+  },
+  {
+    "id":56,
+    "name": "Hitman 3",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 36.68,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZD7DxNOCfDESgRrEA5_ZOidosBgd5J4X0xE8WYWcu7osU4v2D",
+    "platform": "PS5"
+  },
+  {
+    "id":57,
+    "name": "Path of Exile",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 64.89,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw8xZg1zzEyw8oaLpiLtVOlfDZes944RbP509tfu_Y1LSP5mcc",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":58,
+    "name": "Call of Duty: Modern Warfare II",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 33.81,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRkcN3KcNRqlFLvz65girSLvfFLZ6wUWz0bGgleSbAXmxjX0L7Z",
+    "platform": "PC"
+  },
+  {
+    "id":59,
+    "name": "World Of Warcraft",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 47.49,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJtLHIQxCe8pbarCz-hHJigbZ2Yk_IYNDJF9T3i0ylU4FXWSz0",
+    "platform": "PC"
+  },
+  {
+    "id":60,
+    "name": "Black Desert",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 21.48,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCFL_mnkVXiViXei3FOCUJo55vftgdGbPYxU7ESjN9JhB3Z0qU",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":61,
+    "name": "Need for Speed Hot Pursuit",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 31.35,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVjjsZHL1D7YyrXGcpeXzyPr71jCO2crUBlOEFvZQGNENrqfP",
+    "platform": "PC"
+  },
+  {
+    "id":62,
+    "name": "Dead Space Remake",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 22.55,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSs2C0__AjZ7AKV_F4ARyuG47i6UjEiDKMrmMxgVsjRKSfv0ryT",
+    "platform": "PS5"
+  },
+  {
+    "id":63,
+    "name": "Need for Speed: Most Wanted",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 54.62,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBYXEbyVBGp_SdNi3E7iVPuC_Sbk-3Kw8LLCPTDUqFzYkraX7_",
+    "platform": "PC"
+  },
+  {
+    "id":64,
+    "name": "Starfield",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 30.94,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqvnP5kTC1a2_1IC_B74fi7NMQHAGA_qbAMRwWt9hMjO0TKvXC",
+    "platform": "PS5"
+  },
+  {
+    "id":65,
+    "name": "Returnal",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 67.63,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrl_DD1B5rj8ZJ5amkKiUf4G9IGQeR-aD7WbkKMwRoIiFF9oeJ",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":66,
+    "name": "Need for Speed",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 41.62,
+    "image": "https://en.wikipedia.org/wiki/Need_for_Speed:_Undercover#/media/File:Need_for_Speed_Undercover_cover.jpg",
+    "platform": "PC"
+  },
+  {
+    "id":67,
+    "name": "Baldur's Gate",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 29.77,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Baldurs_Gate_stacked_logo_circa_Enhanced_Edition.png",
+    "platform": "PC"
+  },
+  {
+    "id":68,
+    "name": "Baldur's Gate II",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 30.62,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaXcsF2HVBtSDvj_Cd5MYQGPeHdgqrjaQCVd05PAk6dyypPqCh",
+    "platform": "PS5"
+  },
+  {
+    "id":69,
+    "name": "Far Cry 3",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 24.89,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE6yaSpEgFKZon5qyQavjUxOrFyMYAwJqd4FtNgB8VKiEZSoow",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":70,
+    "name": "Assassin's creed Origins",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 49.87,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUFtZ2JHF2HB6fs7dmv6adnP0ALinRP-C1TJOwccGXzJR9-o7O",
+    "platform": "PS5"
+  },
+  {
+    "id":71,
+    "name": "Little Nightmares II",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 64.49,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuaYb11qU4LhzPa4NH5FpPbob8zDOPMP5RuF05sBz-SMnmlV50",
+    "platform": "PS5"
+  },
+  {
+    "id":72,
+    "name": "Control",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 66.53,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxtu7GkgqfRqlVe9hrKnF0m4gkhx_Jd8L76r9WMEcXBIGf-Kma",
+    "platform": "PS5"
+  },
+  {
+    "id":73,
+    "name": "Dying Light 2",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 68.44,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3VZXCkyfpP6pbCDjbiSrRT7-sCGjwLRtBLkAhc7pju_kB4RWy",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":74,
+    "name": "Horizon Forbidden West",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 58.48,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9pS54AM0VhznOliqkdiDqoqVuJJyB0CKriN1hQizNFN4m3lYq",
+    "platform": "PC"
+  },
+  {
+    "id":75,
+    "name": "Assassin's creed Syndicate",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 41.71,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWVkQs2muGMaqmxwwp9pQNqLpyIB6vl5TL0hyKetRZ6tjA4U0H",
+    "platform": "PC"
+  },
+  {
+    "id":76,
+    "name": "Assassin's creed Unity",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 42.76,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxRbzp1Kx9BOKH5Mi3lDdQ6BaSKJhdNxWlcB1wsLaAN0uOmFVB",
+    "platform": "PS5"
+  },
+  {
+    "id":77,
+    "name": "Assassin's creed Black Flag",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 22.55,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxRbzp1Kx9BOKH5Mi3lDdQ6BaSKJhdNxWlcB1wsLaAN0uOmFVB",
+    "platform": "PC"
+  },
+  {
+    "id":78,
+    "name": "Assassin's creed 3",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 37.25,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmuvx6k5n7wOuDSitDo24MhKpHUQ0UU2OKvGQOimrdUoZq8V-V",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":79,
+    "name": "assassin's creed",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 61.08,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2llq1gV5Hcf5FoX6fNgaMm_LslUohZKTRLvQCaD9DtMh8k8dY",
+    "platform": "PC"
+  },
+  {
+    "id":80,
+    "name": "Assassin's creed",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 52.36,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloV_MwYFzodeb_wD5xU_9f8J_QP_qLZI0gXgSudbyR4OEnaIh",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":81,
+    "name": "Doom Eternal",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 63.09,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3C80pDOV4ZrAMj3uBxfcwPekeeVi5HO9Qi5wHUmrJ0d7BarIW",
+    "platform": "PC"
+  },
+  {
+    "id":82,
+    "name": "WWE 2K24",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 64.9,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ1_hAuA7DwMb3ZovtedvAtxNGSnTR93E89duT0GhRMJ_PogRVy",
+    "platform": "PC"
+  },
+  {
+    "id":83,
+    "name": "Once Human",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 65.4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloV_MwYFzodeb_wD5xU_9f8J_QP_qLZI0gXgSudbyR4OEnaIh",
+    "platform": "PS5"
+  },
+  {
+    "id":84,
+    "name": "Little Nightmares I",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 59.13,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCHNJ29dC3b0osdtMwvnscR9AZrp3jdtQ8aLgRErmMvf8UMaVy",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":85,
+    "name": "Grand Theft Auto V",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 48.1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4XmzUbOYDLOo9-_lP67weKZaQJ8ZiQhYYJB6GarYpmJbekDiY",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":86,
+    "name": "Resident Evil 2",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 60.82,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTw8XeI8_keiP9OdPKOXLtKgQhf-KyJ4zf7VqfOHPzYUX07RMUb",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":87,
+    "name": "Resident Evil 3",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 65.42,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9HkavLnuJyqMOW6RE1-lLqAAUNPRiUpoz9vOeyiboRX5ca1EV",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":88,
+    "name": "Resident Evil 6",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 63.84,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMpT2wlGMG3MfyGpUcQGHVbm_ZiPgHEkizQRPywBKUAT_b87zH",
+    "platform": "PC"
+  },
+  {
+    "id":89,
+    "name": "Red Dead Redemption 2",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 22.85,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmYkh80D5i2Rv7qgmZGQ-Q-I9Wj91nHR_gTIlgknSHMlLpmvQ",
+    "platform": "PC"
+  },
+  {
+    "id":90,
+    "name": "Red Dead Redemption",
+    "description": "Challenge yourself in a richly detailed and highly interactive environment.",
+    "price": 57.77,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUhuY9ISw6_w1I_ulc0McbkkJM6TwHcuSeaCrAYrv1WKOh0osr",
+    "platform": "PC"
+  },
+  {
+    "id":91,
+    "name": "Returnal",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 24.17,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrl_DD1B5rj8ZJ5amkKiUf4G9IGQeR-aD7WbkKMwRoIiFF9oeJ",
+    "platform": "PS5"
+  },
+  {
+    "id":92,
+    "name": "Fortnite",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 44.4,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWExVCRY_WnwJm6uMxodgrSlBbot9x_LpO66UPwTrxVeJdI_TW",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":93,
+    "name": "Dying Light",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 29.44,
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8hRzZVWybF0X46-SRBA_D2QM1OXcb-7DwYrlEKem-CrS_tyei",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":94,
+    "name": "Forza Horizon 4",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 21.69,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQnXo4C7DrGU3vX_u5mKli0RRtY9DK-WXYTO2VvlGJR6BFNeld",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":95,
+    "name": "Elden Ring",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 49.13,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhzMqBnyE8eJebI8qI9fJgV8L-24UeRfDEWGcxhB6QeJbpJ4p",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":96,
+    "name": "Grand Theft Auto II",
+    "description": "An immersive experience with groundbreaking visuals and gameplay.",
+    "price": 44.7,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_iQz6yt0edrCy4U55pvIf44wq66IrYemyE6Yq0JtS8N2SEyS0",
+    "platform": "PS5"
+  },
+  {
+    "id":97,
+    "name": "Grand Theft Auto III",
+    "description": "An unforgettable narrative driven by strong characters and gripping plot twists.",
+    "price": 41.13,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVikgwmzwhs48IoeCnbKE0XssgX8eaPvp8I6F3Scf_c7i0Zk1",
+    "platform": "PS5"
+  },
+  {
+    "id":98,
+    "name": "Grand Theft Auto IV",
+    "description": "Explore vast landscapes in a thrilling open-world adventure.",
+    "price": 20.31,
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3BXdxWt1AwhMcwplMYy1CCJJocqNQlY9lKl5WUV7bPCr9pX6j",
+    "platform": "Xbox Series X"
+  },
+  {
+    "id":99,
+    "name": "Genshin impact",
+    "description": "Join the hero in a journey full of action, emotion, and stunning worlds.",
+    "price": 29.59,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KoQIVkZraXPBZuR4revQ37FQ4YPBibTClkNYk5PRyM6QKiyf",
+    "platform": "PS5"
+  }
+]

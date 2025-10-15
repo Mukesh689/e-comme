@@ -1,0 +1,15 @@
+.productdetail{
+    background: url('/public/d65b8f21-ba9f-421a-9daf-c5c20446d502.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99vw;
+    height:91vh;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+.productbody{
+    font-size: 20px;   
+}
