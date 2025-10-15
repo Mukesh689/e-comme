@@ -67,7 +67,7 @@ const Create = () => {
           ))}
           <Form.Check type="checkbox" label="Accept Terms and Conditions" className="mb-3 d-flex justify-content-center" />
           <NavLink to='/'>
-            <Button type="submit" className="btn">Create</Button>
+            <Button type="submit" className="btn mb-3">Create</Button>
           </NavLink>
           <div>Already have an account? <NavLink to='/login'>Login here</NavLink> </div>
 
