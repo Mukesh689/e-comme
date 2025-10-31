@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Container, FloatingLabel, Form, Button } from 'react-bootstrap';
 import { NavLink, useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import image from '/public/download.jpg';
+import image from '/public/download.jpg'; // ✅ put your image inside src/assets
 import './create.css';
 
 const Create = () => {
@@ -15,8 +14,9 @@ const Create = () => {
   });
 
   const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
 
-  // Regex patterns
+  // ✅ Regex patterns
   const usernameRegex = /^[A-Za-z][A-Za-z0-9_]{2,14}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/;
@@ -25,14 +25,16 @@ const Create = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
+    setError('');
+    setSuccess('');
 
     const { username, email, password, gender } = formData;
 
-    // Validation using regex
+    // ✅ Validation using Regex
     if (!usernameRegex.test(username))
-      return setError('Username must start with a letter and be 3–15 characters.');
+      return setError('Username must start with a letter and be 3–15 characters long.');
     if (!emailRegex.test(email))
       return setError('Invalid email format.');
     if (!passwordRegex.test(password))
@@ -40,13 +42,12 @@ const Create = () => {
     if (!gender)
       return setError('Please select gender.');
 
-    try {
-      const res = await axios.post('http://localhost:5000/api/users/register', formData);
-      alert(res.data.message);
-      navigate('/login');
-    } catch (err) {
-      setError(err.response?.data?.message || 'Registration failed.');
-    }
+    // ✅ Store in localStorage (simulate backend)
+    localStorage.setItem('user', JSON.stringify(formData));
+    setSuccess('Account created successfully!');
+    setFormData({ username: '', email: '', password: '', gender: '' });
+
+    setTimeout(() => navigate('/login'), 1500);
   };
 
   return (
@@ -60,6 +61,7 @@ const Create = () => {
           <h1 style={{ textAlign: 'center' }}>Create Account</h1>
 
           {error && <p className="text-danger text-center">{error}</p>}
+          {success && <p className="text-success text-center">{success}</p>}
 
           <FloatingLabel controlId="username" label="Username" className="mb-3">
             <Form.Control
@@ -118,3 +120,4 @@ const Create = () => {
 };
 
 export default Create;
+
