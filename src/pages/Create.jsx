@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, FloatingLabel, Form, Button } from 'react-bootstrap';
 import { NavLink, useNavigate } from 'react-router-dom';
-import image from '/public/download.jpg'; // ✅ put your image inside src/assets
+import image from '/public/download.jpg'; // ✅ Put your image in src/assets
 import './create.css';
 
 const Create = () => {
@@ -10,7 +10,9 @@ const Create = () => {
     username: '',
     email: '',
     password: '',
+    rePassword: '',
     gender: '',
+    termsAccepted: false,
   });
 
   const [error, setError] = useState('');
@@ -22,7 +24,8 @@ const Create = () => {
   const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/;
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value, type, checked } = e.target;
+    setFormData({ ...formData, [name]: type === 'checkbox' ? checked : value });
   };
 
   const handleSubmit = (e) => {
@@ -30,7 +33,7 @@ const Create = () => {
     setError('');
     setSuccess('');
 
-    const { username, email, password, gender } = formData;
+    const { username, email, password, rePassword, gender, termsAccepted } = formData;
 
     // ✅ Validation using Regex
     if (!usernameRegex.test(username))
@@ -39,19 +42,30 @@ const Create = () => {
       return setError('Invalid email format.');
     if (!passwordRegex.test(password))
       return setError('Password must be at least 6 characters and contain a number.');
+    if (password !== rePassword)
+      return setError('Passwords do not match.');
     if (!gender)
       return setError('Please select gender.');
+    if (!termsAccepted)
+      return setError('You must accept the Terms and Conditions.');
 
     // ✅ Store in localStorage (simulate backend)
     localStorage.setItem('user', JSON.stringify(formData));
     setSuccess('Account created successfully!');
-    setFormData({ username: '', email: '', password: '', gender: '' });
+    setFormData({
+      username: '',
+      email: '',
+      password: '',
+      rePassword: '',
+      gender: '',
+      termsAccepted: false,
+    });
 
     setTimeout(() => navigate('/login'), 1500);
   };
 
   return (
-    <div style={{ backgroundImage: `url(${image})`, color: 'white' }} className="create">
+    <div style={{ backgroundImage: `url(${image})`, color: 'white' ,height:'750px' }} className="create">
       <NavLink to="/">
         <Button style={{ width: '70px', marginTop: '10px', marginLeft: '90%' }}>Back</Button>
       </NavLink>
@@ -93,6 +107,16 @@ const Create = () => {
             />
           </FloatingLabel>
 
+          <FloatingLabel controlId="rePassword" label="Re-enter Password" className="mb-3">
+            <Form.Control
+              type="password"
+              name="rePassword"
+              placeholder="Re-enter Password"
+              value={formData.rePassword}
+              onChange={handleChange}
+            />
+          </FloatingLabel>
+
           <Form.Select
             name="gender"
             className="mb-3"
@@ -105,6 +129,15 @@ const Create = () => {
             <option>Other</option>
           </Form.Select>
 
+          <Form.Check
+            type="checkbox"
+            name="termsAccepted"
+            label="Accept Terms and Conditions"
+            className="mb-3"
+            checked={formData.termsAccepted}
+            onChange={handleChange}
+          />
+
           <Button type="submit" className="btn w-100">
             Register
           </Button>
@@ -112,8 +145,9 @@ const Create = () => {
           <p className="text-center mt-3">
             Already have an account? <NavLink to="/login">Login</NavLink>
           </p>
-          <div className="icon mx-auto d-flex justify-content-around mt-3" >
-                        <a href=""><img
+
+          <div className="icon mx-auto d-flex justify-content-around mt-3">
+              <a href=""><img
               width={30}
               height={30}
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACv0lEQVR4nO2UT2jTYByG48F5c4ieJ47RBE0rbZItcT2VHYQWWoebx11ksEPPehC92YA35wSvnpyDVoUetNrmYGvRKiK7bG6oW77uIqOCcyVx/eSbjWY1af70r/C98N7Kr++TPC1B4ODg4ODg6FLyeE7kKepugSTLeZLcyZNkseDxTBNdzk+JnlYluqjk6B0l5y2rOfoOzFDHrceT5GqBoqBBl0rDw4OdHg4zzKAi0Uuq5IX/NEevNIXYf/LG47WuFSmK6dR4JetlVMm7Zjj+b+fNAUhyywIAtQp4Lt7u8YDn4orkrVqMh0qOBuYAFFWzAQCBwEGZ5x59CQaPtTr86+joUSBwD9BNq/G/Abw102N2xmsAdYjPm+OjvNvxgGcCQOA+avfsAKC2DaBeBQjcFUgQh5yMLwvsLOC5qv5WrwAcKaVXBjS0ZYD5iZn3bgHsKNWoDHAB8Doz9sYUYEgEcHJuUc3RZ6tuAJopZaQMcADwI+vbvZUOVSKpGGwKgBq49g7eD8b2XAIcUKqZMsAmwPrzQPXy4zBE420BoJ66uQGvXrxeM/prtTOmDrGOavfzqsH49NNxeCEV/TPeNoDWybnFmnTGt+sGwGlV3fDvWZ8ipicODHcFoCmVYkNb3QLYfOHf1ivTMoCmVCIcX0FKdRLg5TP+U6MybQHQOjuz8AEIXKUDAJWFJ6HlZsPbAoBaFvwnAc++atd4WeDebvD+ETvj2wKAPltimMMyz4qywLWklMxz91bPjxxBN7sKoAWcY6KAZ7edP3X2mzzGXtLf6gkAilOlNGWIhvQMwIlSemX6CsBKKSNl+hLASCkzZfoWAAVpIgvsbVQzZfoawE0iGEDEb6ClRLBCCQD6/kecjMmmB4ZEWex3gHAqmjA9cPrG8sA+hMWb6AVAOBkDkWRMnHo4NdCp78fBwcHBIf67/ALECpwyy5gUBAAAAABJRU5ErkJggg=="
@@ -141,4 +175,3 @@ const Create = () => {
 };
 
 export default Create;
-
