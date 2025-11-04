@@ -29,6 +29,11 @@ const cartItemCount = cart.reduce((total, item) => total + item.quantity, 0);
     });
   };
 
+  const removeFromCart = (id) => {
+  setCart((prevCart) => prevCart.filter((item) => item.id !== id));
+};
+
+
   const increaseQuantity = (productId) => {
     setCart((prevCart) =>
       prevCart.map((item) =>
@@ -52,7 +57,7 @@ const clearCart = () => {
 };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, increaseQuantity, decreaseQuantity ,cartItemCount,clearCart }}>
+    <CartContext.Provider value={{ cart, addToCart, increaseQuantity, decreaseQuantity ,cartItemCount,clearCart,removeFromCart }}>
       {children}
     </CartContext.Provider>
   );
